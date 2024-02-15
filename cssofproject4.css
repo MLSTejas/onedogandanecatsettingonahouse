@@ -1,0 +1,59 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/31/15/37/evergreen-2025158_1280.png);/* background image of the green with big treelu */
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+}
+#main-container{
+    display: flex;/*  one side transper only*/
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 286px;
+}
+#roof1{
+    
+    height:50px;/* for top roof hight */
+    margin:10px auto 0 auto;/* for border or margen with */
+    width:0;
+
+    border-style: solid;/*  style of the border*/
+    border-width:0 80px 100px 80px;/*  with of the border*/
+    border-color:transparent transparent rgb(222, 53, 228)  transparent;/*  one side transper only*/
+}
+#wall1{
+    margin-left:25px;/*  margen of the wall*/
+    border-style: double solid ;/*  border  with of the wall */
+
+    background-color: rgb(191, 235, 243);/*  border style ofthe wall*/
+
+    width:100px;/* with of the wall */
+    height:100px;/*  border  with of the wall */
+
+}
+#kitten-image{
+    width: 100px;/* with of the meowe*/
+    
+}
+#roof2{
+    height:30px;/* for top roof hight */
+    margin:10px auto 0 auto;/* for border or margen with */
+    width:0;/*  size*/
+
+    border-style: solid;/*  style of the border*/
+    border-width:0 100px 125px 100px;/*  with of the border*/
+    border-color:transparent transparent rgb(222, 53, 228) transparent;/*  one side transper only*/
+}
+#wall2{
+    margin-left: 30px;/*  margen of the wall*/
+    border-width : 10%;/*  border  with of the wall */
+
+    border-style:  double solid;/*  border style ofthe wall*/
+    background-color: rgb(191, 235, 243);/*  colour of the wall*/
+    width:140px;/* with of the wall */
+    height:140px;/* height of the wall */
+}
+#puppy-image{
+    width:140px;/* hole puppy background */
+}
